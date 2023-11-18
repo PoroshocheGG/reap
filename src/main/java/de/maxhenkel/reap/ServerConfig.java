@@ -42,6 +42,7 @@ public class ServerConfig extends ConfigBase {
                         "minecraft:wheat",
                         "minecraft:beetroots",
                         "minecraft:cocoa"
+                        "twilightforest:steeleaf_axe"
                 ), Objects::nonNull);
         logTypesSpec = builder
                 .comment("The log blocks that are allowed to get harvested by the tree harvester")
